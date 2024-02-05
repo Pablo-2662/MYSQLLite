@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/textoNombre"
+        android:layout_width="match_parent"
+        android:hint="inserta el nombre"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+    android:layout_marginTop="30dp"
+    android:id="@+id/textoCiclo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:hint="insertar el ciclo">
+    </EditText>
+
+    <Button
+        android:id="@+id/botonInsertar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="INSERTAR DATOS">
+    </Button>
+    <Button
+    android:id="@+id/botonActualizar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="ACTUALIZAR DATOS">
+</Button>
+    <Button
+        android:id="@+id/botonConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CONSULTAR DATOS">
+    </Button>
+    <TextView
+        android:id="@+id/datosRecogidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+
+
+
+
+</LinearLayout>
